@@ -1,7 +1,8 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FROSIA by Zephyra</title>
   <style>
     body {
@@ -44,12 +45,12 @@
       max-width: 1000px;
       margin: auto;
     }
-    .features {
+    .features, .products {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
     }
-    .feature {
+    .feature, .product {
       background-color: #ffffff;
       border: 1px solid #ccc;
       border-radius: 10px;
@@ -59,7 +60,7 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       text-align: center;
     }
-    .feature img {
+    .feature img, .product img {
       width: 100px;
       height: 100px;
       object-fit: cover;
@@ -71,20 +72,39 @@
       text-align: center;
       padding: 20px;
     }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
   </style>
 </head>
-<body>  <header>
+<body>
+  <header>
     <h1>Welcome to Zephyra</h1>
     <p>Creators of FROSIA – The Smart Scented Cloth Shelf</p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Zeus_tondo_Louvre_G457.jpg/800px-Zeus_tondo_Louvre_G457.jpg" alt="Logo Placeholder">
-  </header>  <nav>
+  </header>
+
+  <nav>
     <a href="#about">About Us</a>
     <a href="#services">Smart Services</a>
+    <a href="#shop">Shop Centre</a>
     <a href="#contact">Contact</a>
-  </nav>  <section id="about">
+  </nav>
+
+  <section id="about">
     <h2>About Zephyra</h2>
     <p>Zephyra is a modern innovation company inspired by the beauty and wisdom of Greek mythology. Our mission is to bring elegance and technology together to create smart, functional lifestyle products. Our flagship product, <strong>FROSIA</strong>, is a scented cloth shelf infused with lavender freshness and equipped with smart features for your convenience and comfort.</p>
-  </section>  <section id="services">
+  </section>
+
+  <section id="services">
     <h2>Our Smart Services</h2>
     <div class="features">
       <div class="feature">
@@ -103,14 +123,64 @@
         <p>Never run out of freshness again! Our system will alert you when your air freshener is running low.</p>
       </div>
     </div>
-  </section>  <section id="contact">
+  </section>
+
+  <section id="shop">
+    <h2>Shop Centre</h2>
+    
+    <h3>Customize Your Shelf</h3>
+    <div class="features">
+      <div class="feature">
+        <img src="https://cdn-icons-png.flaticon.com/512/709/709496.png" alt="Shelf Design">
+        <h4>Design Options</h4>
+        <p>Choose from modern, classic, or minimalist shelf styles to match your room theme.</p>
+      </div>
+      <div class="feature">
+        <img src="https://cdn-icons-png.flaticon.com/512/892/892692.png" alt="Color Palette">
+        <h4>Color Palette</h4>
+        <p>Customize your shelf color – pick from elegant wood tones to bold pastels.</p>
+      </div>
+      <div class="feature">
+        <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="Add-ons">
+        <h4>Add-On Features</h4>
+        <p>Add lighting, motion sensors, or Bluetooth connectivity for extra smartness.</p>
+      </div>
+    </div>
+
+    <h3>Air Freshener Refills</h3>
+    <div class="products">
+      <div class="product">
+        <img src="https://cdn-icons-png.flaticon.com/512/1485/1485526.png" alt="Zephyr Mint">
+        <h4>Zephyr Mint</h4>
+        <p>Cool and refreshing – perfect for a calming atmosphere.</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+      <div class="product">
+        <img src="https://cdn-icons-png.flaticon.com/512/146/146903.png" alt="Aphrodite Bloom">
+        <h4>Aphrodite Bloom</h4>
+        <p>Romantic floral blend – ideal for bedrooms and living rooms.</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+      <div class="product">
+        <img src="https://cdn-icons-png.flaticon.com/512/2933/2933897.png" alt="Poseidon Ocean">
+        <h4>Poseidon Ocean</h4>
+        <p>Fresh marine scent that energizes your space like a sea breeze.</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
     <h2>Contact Us</h2>
     <p>If you have any questions, feedback, or inquiries, feel free to reach out to us!</p>
     <ul>
       <li><strong>Email:</strong> zephyra.support@gmail.com</li>
       <li><strong>Phone:</strong> +60 12-345 6789</li>
     </ul>
-  </section>  <footer>
+  </section>
+
+  <footer>
     <p>&copy; 2025 Zephyra Inc. All rights reserved.</p>
-  </footer></body>
+  </footer>
+</body>
 </html>
